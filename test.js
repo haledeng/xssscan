@@ -1,5 +1,4 @@
-
-var xss = require('xss');
+var xss = require('xssscan');
 var directory = "d:/nodejs/jsxss";
 var cfg = {
 	is_$: false,
