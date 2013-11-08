@@ -1,0 +1,13 @@
+<input type='text' id='xssinput' />
+<div id='xss'></div>
+<button id='btn'>click</button>
+<script>
+var $ = function(id){
+	return document.getElementById(id);
+};
+$('btn').onclick = function(){
+	var value = document.getElementById('xssinput');
+	//$('xss').innerHTML = $('xssinput').value;
+	$('xss').innerHTML = value;
+};
+</script>
