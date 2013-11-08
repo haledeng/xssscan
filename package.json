@@ -1,0 +1,42 @@
+{
+  "name": "xssscan",
+  
+  "version": "0.0.0",
+  
+  "description": "xss scan",
+  
+  "main": "lib/index.js",
+  
+  "auth":"heledeng",
+  
+  "email":"dhlwust@163.com",
+  
+  "scripts": {
+  
+    "test": "node test.js"
+    
+  },
+  "keywords": [
+  
+    "xss"
+    
+  ],
+  
+  "repository" : {
+  
+        "type": "git",
+        
+        "url": "git@github.com:haledeng/XssScan.git"
+        
+  },
+  
+  "dependencies":{
+  
+      "eventproxy": "0.2.6",
+      
+      "js-beautify": "1.4.1"
+      
+  },
+  
+  "license": "BSD"
+}
